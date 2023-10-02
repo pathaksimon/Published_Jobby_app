@@ -1,0 +1,45 @@
+.lista2 {
+  background-color: #272727;
+  width: 40%;
+  list-style-type: none;
+  margin: 5px;
+  margin-right: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.inside-1 {
+  display: flex;
+  margin-left: 5px;
+
+  width: 75%;
+  margin: auto;
+}
+
+.inside-2 {
+  margin-left: 5px;
+
+  width: 75%;
+  margin: auto;
+}
+
+.inside-of-inside {
+  font-size: 20px;
+}
+
+.bottom-card-icon {
+  width: 25%;
+  margin-top: 5px;
+}
+
+.below-side {
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .lista2 {
+    width: 95%;
+  }
+}
